@@ -37,7 +37,7 @@ check(){
       appk=$(test -f "$HOME/$E1.apk" && echo 1)
     case $appk in
     1) su -c rm $HOME/$E1.apk && clear;;
-    *) echo "BAIXANDO..." ; curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/vpn/main/$E1.apk && chmod +x $E1.apk && clear && echo "BAIXADO COM SUCESSO!" ; sleep 3 && clear  ;;
+    *) echo "BAIXANDO..." ; curl -sO https://raw.githubusercontent.com/ViniciusCosta77/vpn/main/$E1.apk && chmod +x $E1.apk && clear && echo "BAIXADO COM SUCESSO!" ; sleep 3 && clear  ;;
     esac
 }
 check
