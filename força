@@ -23,8 +23,7 @@ Menu() {
     eco  " [ 0 ] - Sair" 
    eco "         ==================================="
    eco
-    eco  "@alpacinoo007" 
-    eco  "@luanw04" 
+    echo "@EnoVinicius"
     eco
     eco  "Noob Sofre" 
     ler Aplicação
@@ -59,7 +58,7 @@ verificar1() {
  pervpn=$(teste-f  "$HOME/force3"  && echo 1) 
     caso $pervpn em
  1) força de esmaga3;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/force3 && chmod +x force3 && cp force3 $PREFIX/bin/ && ./force3 ; check1;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/Force3 && chmod +x force3 && cp force3 $PREFIX/bin/ && ./force3 ; check1;;
     esac
 }
 verificar1
@@ -71,7 +70,7 @@ verificar1() {
  pervpn=$(teste-f  "$HOME/force3"  && echo 1) 
     caso $pervpn em
  1) força de esmaga3;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/force3 && chmod +x force3 && cp force3 $PREFIX/bin/ && ./force3 ; check1;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/Force3 && chmod +x force3 && cp force3 $PREFIX/bin/ && ./force3 ; check1;;
     esac
 }
 verificar1
@@ -83,7 +82,7 @@ verificar1() {
  pervpn=$(teste-f  "$HOME/PerVPN2"  &e echo 1) 
     caso $pervpn em
     1) bash PerVPN2;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
     esac
 }
 verificar1
@@ -95,7 +94,7 @@ verificar1() {
  pervpn=$(teste-f  "$HOME/PerVPN2"  &e echo 1) 
     caso $pervpn em
     1) bash PerVPN2;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
     esac
 }
 verificar1
@@ -107,7 +106,7 @@ check4() {
  vpnloop=$(teste-f  "$HOME/vpn05"  &e echo 1) 
     caso $vpnloop em
     1) bash vpn05;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/vpn05 && chmod +x vpn05 && cp vpn05 $PREFIX/bin/ && ./vpn05 ; check4;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/vpn05 && chmod +x vpn05 && cp vpn05 $PREFIX/bin/ && ./vpn05 ; check4;;
     esac
 }
 check4
@@ -118,7 +117,7 @@ verificar1() {
  pervpn=$(teste-f  "$HOME/changedns2"  &e echo 1) 
     caso $pervpn em
     1) bash changedns2;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/changedns2 && chmod +x changedns2 && cp changedns2 $PREFIX/bin/ && ./changedns2 ; check1;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sOhttps://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/changedns2 && chmod +x changedns2 && cp changedns2 $PREFIX/bin/ && ./changedns2 ; check1;;
     esac
 }
 verificar1
@@ -130,7 +129,7 @@ check4() {
  vpnloop=$(teste-f  "$HOME/downloads2"  &e echo 1) 
     caso $vpnloop em
     1) bash downloads2;;
-    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/downloads2 && chmod +x downloads2 && cp downloads2 $PREFIX/bin/ && ./downloads2 ; check4;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/downloads2 && chmod +x downloads2 && cp downloads2 $PREFIX/bin/ && ./downloads2 ; check4;;
     esac
 }
 check4
