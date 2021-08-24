@@ -1,0 +1,158 @@
+#! /bin/bash
+claro
+Menu() {
+ claro
+    eco -e  '\n' 
+   eco "     ==================================="
+    eco  " FORÇAR CONEXÃO (RAIZ) " 
+   eco "        ==================================="
+    eco  " ESCOLHA UM APP" 
+    eco
+   eco "        ==================================="
+    eco  " [ P ] - Permições VPN" 
+    eco  " [ 1 ] - CMSP" 
+    echo  " [ 2 ] - CMSP KIDS" 
+    eco  " [ 3 ] - Aulas Paraná" 
+    echo  " [ 4 ] - Applique-se" 
+    eco  " [ 5 ] - Rio Educa Em Casa"   
+    eco  " [ 6 ] - Loop De Conexão" 
+    echo  " [ 7 ] - Alterar DNS" 
+    echo  " [ 8 ] - Baixar Apps" 
+    echo  " [ 9 ] - MBs Gastos VPN" 
+    eco  " [ N ] - Proximo"  
+    eco  " [ 0 ] - Sair" 
+   eco "         ==================================="
+   eco
+    eco  "@alpacinoo007" 
+    eco  "@luanw04" 
+    eco
+    eco  "Noob Sofre" 
+    ler Aplicação
+    caso $App em  
+ 1) App="tv.ip.edusp"  ; atividade="tv.ip.my.activities.SplashScreen"  ; A3="su -c am start -n tv.ip.edusp/tv.ip.my.activities.VideoActivity2 "  ; nome="CentroDeMidiasSP"  ; A2="su -c am start -n tv.ip.edusp/com.datami.smi.ui.VpnPermissionActivity"  ; s="sleep 8"  ; A4="su -c am start -n tv.ip.edusp/tv.ip.my.activities.SplashScreen"  ; db="su -c pm desativar tv.ip.edusp"  ; eb="su -c pm habilitar tv.ip.edusp" ;;
+ 2) App="tv.ip.cmspi"  ; atividade="tv.ip.my.activities.SplashScreen"  ; A3="su -c am start -n tv.ip.cmspi/tv.ip.my.activities.MyVideoActivity"  ; nome="RioEducaEmCasa";   A2="su -c am start -n tv.ip.cmspi/com.datami.smi.ui.VpnPermissionActivity"  ; s="sleep 8"  ; A4="su -c am start -n tv.ip.cmspi/tv.ip.my.activities.SplashScreen "  ; db="su -c pm desativar tv.ip.cmspi"  ; eb="su -c pm habilitar tv.ip.cmspi" ;;
+ 3) App="tv.ip.aulapr"  ; atividade="tv.ip.my.activities.SplashScreen"  ; A3="su -c am start -n tv.ip.aulapr/tv.ip.my.activities.VideoActivity2 "  ; nome="AulaParana";   A2="su -c am start -n tv.ip.aulapr/com.datami.smi.ui.VpnPermissionActivity"  ; s="sleep 8"  ; A4="su -c am start -n tv.ip.aulapr/tv.ip.my.activities.SplashScreen"  ; db="su -c pm desativar tv.ip.aulapr"  ; eb="su -c pm habilitar tv.ip.aulapr" ;; 
+ 4) App="tv.ip.appliquese"  ; atividade="tv.ip.my.activities.SplashScreen"  ; A3="su -c am start -n tv.ip.appliquese/tv.ip.my.activities.VideoActivity2"  ; nome="Applique-se"  ; A2="su -c am start -n tv.ip.appliquese/com.datami.smi.ui.VpnPermissionActivity"  ; s="sleep 8"  ; A4="su -c am start -n tv.ip.appliquese/tv.ip.my.activities.SplashScreen"  ; db="su -c pm desativar tv.ip.appliquese"  ; eb="su -c pm habilitar tv.ip.appliquese" ;; 
+ 5) App="tv.ip.rioeduca"  ; atividade="tv.ip.my.activities.SplashScreen"  ; A3="su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.VideoActivity2"  ; nome="RioEducaEmCasa";   A2="su -c am start -n tv.ip.rioeduca/com.datami.smi.ui.VpnPermissionActivity"  ; s="sleep 8"  ; A4="su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.SplashScreen"  ; db="su -c pm desativar tv.ip.rioeduca"  ; eb="su -c pm habilitar tv.ip.rioeduca" ;;
+    6) App6;;
+    7) App7;;
+    8) App8;;
+    9) App9;;
+    P) AppP;;
+    p) Appp;;
+    N) AppN;;
+    n) Appn;;
+    0) App0;;
+    *)  CalmaBarboleta;   eco;  Menu;;
+    esac
+ ligar
+    }
+
+App0(){
+claro
+su -c killall com.termux
+}
+
+AppN(){
+claro
+verificar1() {
+ pervpn=$(teste-f  "$HOME/force3"  && echo 1) 
+    caso $pervpn em
+ 1) força de esmaga3;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/force3 && chmod +x force3 && cp force3 $PREFIX/bin/ && ./force3 ; check1;;
+    esac
+}
+verificar1
+}
+
+Appn(){
+claro
+verificar1() {
+ pervpn=$(teste-f  "$HOME/force3"  && echo 1) 
+    caso $pervpn em
+ 1) força de esmaga3;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/force3 && chmod +x force3 && cp force3 $PREFIX/bin/ && ./force3 ; check1;;
+    esac
+}
+verificar1
+}
+
+AppP(){
+claro
+verificar1() {
+ pervpn=$(teste-f  "$HOME/PerVPN2"  &e echo 1) 
+    caso $pervpn em
+    1) bash PerVPN2;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    esac
+}
+verificar1
+}
+
+Appp(){
+claro
+verificar1() {
+ pervpn=$(teste-f  "$HOME/PerVPN2"  &e echo 1) 
+    caso $pervpn em
+    1) bash PerVPN2;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    esac
+}
+verificar1
+}
+
+App6(){
+claro
+check4() {
+ vpnloop=$(teste-f  "$HOME/vpn05"  &e echo 1) 
+    caso $vpnloop em
+    1) bash vpn05;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/vpn05 && chmod +x vpn05 && cp vpn05 $PREFIX/bin/ && ./vpn05 ; check4;;
+    esac
+}
+check4
+}
+App7(){
+claro
+verificar1() {
+ pervpn=$(teste-f  "$HOME/changedns2"  &e echo 1) 
+    caso $pervpn em
+    1) bash changedns2;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sono 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/changedns2 && chmod +x changedns2 && cp changedns2 $PREFIX/bin/ && ./changedns2 ; check1;;
+    esac
+}
+verificar1
+}
+
+App8(){
+claro
+check4() {
+ vpnloop=$(teste-f  "$HOME/downloads2"  &e echo 1) 
+    caso $vpnloop em
+    1) bash downloads2;;
+    *) clear && echo  "NECESSARIO TER INTERNET NA 1° ";   eco  "VEZ PARA BAIXAR O RECURSO"  ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/downloads2 && chmod +x downloads2 && cp downloads2 $PREFIX/bin/ && ./downloads2 ; check4;;
+    esac
+}
+check4
+}
+
+App9(){
+claro
+echo  "É preciso estar conectado na VPN PARA VER"  ; eco  "O TEMPO CONECTADO E OS MBS GASTOS"  ; sono 5 && clear && su -c am start -n com.android.vpndialogs/com.android.vpndialogs.ManageDialog && bash force
+}
+
+ligar(){
+claro
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [-ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear $App && su -c am start -n $App/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n $App/tv.ip.my.controller.MyMainService && $A 3
+check2() {
+ vpn=$(ifconfig | grep -c tun0) 
+    caso $vpn em
+ 0) sono 2; check2;;
+    1) su -c am stopservice -n $App/tv.ip.my.controller.MyMainService && su -c killall $App
+     esac
+}
+check2
+su -c killall com.termux
+}
+claro
+Menu
