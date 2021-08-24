@@ -20,8 +20,7 @@ Menu() {
     echo "            [ 0 ] - Voltar"
    echo "         ==================================="
    echo
-    echo "@alpacinoo007"
-    echo "@luanw04"
+    echo "@EnoVinicius"
     echo
     echo "Noob Sofre"
     read App
@@ -50,7 +49,7 @@ check1() {
     pervpn=$(test -f "$HOME/PerVPN2" && echo 1)
     case $pervpn in
     1) bash PerVPN2;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
     esac
 }
 check1
@@ -62,7 +61,7 @@ check1() {
     pervpn=$(test -f "$HOME/PerVPN2" && echo 1)
     case $pervpn in
     1) bash PerVPN2;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
     esac
 }
 check1
